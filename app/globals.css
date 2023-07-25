@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@font-face {
+  font-family: "Druk Wide Bold";
+  src: url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot");
+  src: url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.svg#Druk Wide Bold")format("svg");
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer base { */
+/* @font-face{
+  font-family: 'Druk-Wide-Bold';
+  font-weight: 700;
+  src: url('/../assets/fonts/Druk-Wide-Bold.ttf') format('ttf');
+} */
+/* } */
 
 :root {
   --foreground-rgb: 0, 0, 0;

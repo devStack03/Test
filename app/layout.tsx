@@ -1,8 +1,18 @@
 import './globals.css'
+import localFont from '@next/font/local'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+const drukWide = localFont({
+  src: [
+    {
+      path: './assets/fonts/Druk-Wide-Bold.ttf',
+      weight: '700'
+    }
+  ],
+  variable: '--font-drukWide'
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${drukWide.variable}`}>{children}</body>
     </html>
   )
 }
